@@ -8,7 +8,8 @@ export default function ShowcaseSection(): React.JSX.Element {
   return (
     <div id="showcase" data-section="showcase">
               <FeaturesParallaxShowcase
-        title="For a Strong Switzerland 🇨🇭"
+        title="For a Strong Switzerland 
+                  🇨🇭"
         backgroundSrc="https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=1200&q=80"
         leftImageSrc="https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783294133902-jfwtklo3.jpg"
         rightImageSrc="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&q=80"
