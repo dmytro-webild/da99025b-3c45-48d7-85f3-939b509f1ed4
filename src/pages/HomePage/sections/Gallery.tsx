@@ -8,43 +8,7 @@ export default function GallerySection() {
         title="Moments & Milestones"
         description="A visual journey through political campaigns, business leadership at EMS-Chemie, and dedication to Switzerland."
         textAnimation="fade-blur"
-        items={[
-          {
-            title: "National Council",
-            description: "Speaking at the parliament.",
-            imageSrc: "https://picsum.photos/seed/53507368/1200/800"
-          },
-          {
-            title: "EMS-Chemie",
-            description: "Leading innovation in the chemical industry.",
-            imageSrc: "https://picsum.photos/seed/1204379453/1200/800"
-          },
-          {
-            title: "Graubünden",
-            description: "Deeply connected to the Swiss mountains.",
-            imageSrc: "https://picsum.photos/seed/8315379/1200/800"
-          },
-          {
-            title: "Networking",
-            description: "Engaging with citizens and business leaders.",
-            imageSrc: "https://picsum.photos/seed/1183479851/1200/800"
-          },
-          {
-            title: "For Switzerland",
-            description: "Campaigning for a strong and independent country.",
-            imageSrc: "https://picsum.photos/seed/1594641628/1200/800"
-          },
-          {
-            title: "Industry",
-            description: "Commitment to Swiss manufacturing.",
-            imageSrc: "https://picsum.photos/seed/117548613/1200/800"
-          },
-          {
-            title: "Leadership",
-            description: "A strong voice for the economy.",
-            imageSrc: "https://picsum.photos/seed/351614573/1200/800"
-          }
-        ]}
+        items={[{"title":"National Council","description":"Speaking at the parliament in Bern.","imageSrc":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1200&q=80"},{"imageSrc":"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=1200&q=80","description":"Leading innovation in the chemical industry.","title":"EMS-CHEMIE"},{"description":"Deeply connected to the Swiss mountains.","imageSrc":"https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=1200&q=80","title":"Graubünden"},{"description":"Engaging with citizens and business leaders.","imageSrc":"https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80","title":"Networking"},{"description":"Campaigning for a strong and independent country.","imageSrc":"https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=80","title":"For Switzerland"},{"imageSrc":"https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200&q=80","description":"Commitment to Swiss manufacturing.","title":"Industry"},{"title":"Leadership","imageSrc":"https://images.unsplash.com/photo-1554774853-719586f82d77?w=1200&q=80","description":"A strong voice for the economy."}]}
       />
     </div>
   );

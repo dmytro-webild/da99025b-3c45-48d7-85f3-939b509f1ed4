@@ -12,9 +12,7 @@ export default function MilestonesSection(): React.JSX.Element {
         tag="Milestones"
         title="A Journey of Commitment"
         description="Key moments in my entrepreneurial and political career."
-        primaryButton={{"text":"Read more","href":"https://www.martullo-blocher.ch/"}}
-        secondaryButton={{"text":"Follow updates","href":"#"}}
-        items={[{"imageSrc":"https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80","label":"EMS-CHEMIE Leadership"},{"imageSrc":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80","label":"National Council Election"},{"imageSrc":"https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80","label":"Advocating for Economy"},{"imageSrc":"https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=600&q=80","label":"Swiss Independence"},{"imageSrc":"https://images.unsplash.com/photo-1554774853-719586f82d77?w=600&q=80","label":"Innovation Focus"},{"imageSrc":"https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80","label":"Global Expansion"}]}
+        items={[{"label":"EMS-CHEMIE Leadership","imageSrc":"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80"},{"imageSrc":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80","label":"National Council Election"},{"label":"Advocating for Economy","imageSrc":"https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80"},{"label":"Swiss Independence","imageSrc":"https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80"},{"label":"Innovation Focus","imageSrc":"https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=600&q=80"},{"imageSrc":"https://images.unsplash.com/photo-1554774853-719586f82d77?w=600&q=80","label":"Global Expansion"}]}
       />
             </div>
   );
