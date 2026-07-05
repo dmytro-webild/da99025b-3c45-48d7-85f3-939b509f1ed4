@@ -13,7 +13,8 @@ import AboutSection from './HomePage/sections/About';
 import MilestonesSection from './HomePage/sections/Milestones';
 import ShowcaseSection from './HomePage/sections/Showcase';
 
-export default function HomePage(): React.JSX.Element {
+
+import GallerySection from './HomePage/sections/Gallery';export default function HomePage(): React.JSX.Element {
   return (
 <StyleProvider siteBackground="none" heroBackground="none" buttonVariant="bounce">
         <SiteBackgroundSlot />
@@ -26,6 +27,7 @@ export default function HomePage(): React.JSX.Element {
         <MilestonesSection />
 
         <ShowcaseSection />
+      <GallerySection />
 
         
       </StyleProvider>
