@@ -8,35 +8,14 @@ export default function HeroSection(): React.JSX.Element {
   return (
     <div id="hero" data-section="hero">
               <HeroStickerFlip
-                title="Hey, I'm Anya"
-                description="Blogger & Traveler"
-                imageSrc="https://storage.googleapis.com/webild/default/templates/anya/hero.webp"
-                backTextSegments={[
-                  { type: "text", content: "I'm currently " },
-                  { type: "photo", src: "https://storage.googleapis.com/webild/default/templates/anya/inline-photo.webp" },
-                  { type: "highlight", content: " traveling all over the world " },
-                  { type: "text", content: "capturing moments, " },
-                  { type: "highlight", content: "writing stories " },
-                  { type: "text", content: "and sharing the " },
-                  { type: "highlight", content: "places I love" },
-                ]}
-                clickBadgeText="Click me!"
-                stickerImageSrcs={[
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/mixtape.webp",
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/flowers.webp",
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/toast.webp",
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/passport.webp",
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/cd.webp",
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/reading.webp",
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/watercolors.webp",
-                  "https://storage.googleapis.com/webild/default/templates/anya/stickers/orange.webp",
-                ]}
-                socialLinks={[
-                  { iconSrc: "https://storage.googleapis.com/webild/default/templates/anya/icons/instagram.svg", href: "#", label: "Instagram" },
-                  { iconSrc: "https://storage.googleapis.com/webild/default/templates/anya/icons/tiktok.svg", href: "#", label: "TikTok" },
-                  { iconSrc: "https://storage.googleapis.com/webild/default/templates/anya/icons/twitter.svg", href: "#", label: "Twitter" },
-                ]}
-              />
+        title="Magdalena Martullo-Blocher"
+        description="Entrepreneur & National Councilor"
+        imageSrc="https://picsum.photos/seed/351614573/1200/800"
+        backTextSegments={[{"type":"text","content":"I am a passionate "},{"content":"entrepreneur","type":"highlight"},{"type":"text","content":" and dedicated "},{"type":"highlight","content":"politician"},{"type":"text","content":", committed to a strong "},{"type":"highlight","content":"Swiss economy"},{"type":"text","content":" and independence."}]}
+        clickBadgeText="About Me"
+        stickerImageSrcs={["https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=400&q=80","https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=400&q=80","https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&q=80","https://images.unsplash.com/photo-1554774853-719586f82d77?w=400&q=80","https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&q=80","https://images.unsplash.com/photo-1507208613628-12b4b208e283?w=400&q=80","https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=400&q=80","https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=400&q=80"]}
+        socialLinks={[{"label":"Twitter","iconSrc":"https://storage.googleapis.com/webild/default/templates/anya/icons/twitter.svg","href":"#"},{"href":"https://www.martullo-blocher.ch/","iconSrc":"https://storage.googleapis.com/webild/default/templates/anya/icons/instagram.svg","label":"Website"}]}
+      />
             </div>
   );
 }
