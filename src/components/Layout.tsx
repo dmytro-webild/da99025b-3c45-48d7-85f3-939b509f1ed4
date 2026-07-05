@@ -13,12 +13,12 @@ export default function Layout() {
       </main>
       <FooterBasic
                 columns={[
-                  { title: "Follow", items: [{ label: "Instagram", href: "#" }, { label: "TikTok", href: "#" }, { label: "Twitter", href: "#" }] },
-                  { title: "Explore", items: [{ label: "Blog", href: "#" }, { label: "Gallery", href: "#gallery" }, { label: "About", href: "#about" }] },
-                  { title: "Connect", items: [{ label: "Contact", href: "#contact" }, { label: "Collaborate", href: "#" }] },
+                  { title: "Follow", items: [{ label: "Website", href: "https://www.martullo-blocher.ch/" }, { label: "Twitter", href: "#" }] },
+                  { title: "Explore", items: [{ label: "About", href: "#about" }, { label: "Milestones", href: "#milestones" }] },
+                  { title: "Connect", items: [{ label: "Contact", href: "#contact" }] },
                 ]}
-                leftText="© 2025 Anya. All rights reserved."
-                rightText="Made with love"
+                leftText="© 2025 Magdalena Martullo-Blocher. All rights reserved."
+                rightText="For a Strong Switzerland"
               />
     </StyleProvider>
   );

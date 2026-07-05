@@ -8,18 +8,13 @@ export default function AboutSection(): React.JSX.Element {
   return (
     <div id="about" data-section="about">
               <FeaturesBentoGridCta
-                textAnimation="fade"
-                tag="A Little About Me"
-                title="The Things That Make Me, Me"
-                description="Family, adventures, and a camera that goes everywhere I do."
-                features={[
-                  { title: "Family First", description: "The people who shaped who I am and who I carry with me everywhere.", imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/bento/family.webp" },
-                  { title: "Wanderlust", description: "New cities, unfamiliar streets, and the feeling of being wonderfully lost.", imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/bento/wanderlust.webp" },
-                  { title: "Through My Lens", description: "Photography isn't just a hobby — it's how I remember everything.", imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/bento/lens.webp" },
-                  { title: "Good Food, Good Mood", description: "Every place has a dish that tells you more than any guidebook could.", imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/bento/food.webp" },
-                ]}
-                ctaButton={{ text: "Let's connect!", href: "#contact", avatarSrc: "https://storage.googleapis.com/webild/default/templates/anya/hero.webp", avatarLabel: "You" }}
-              />
+        textAnimation="fade"
+        tag="About Me"
+        title="My Core Values"
+        description="Committed to entrepreneurship, independence, and a strong Switzerland."
+        features={[{"imageSrc":"https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80","title":"Entrepreneurship","description":"Leading EMS-CHEMIE with a focus on innovation and global success."},{"title":"Political Commitment","imageSrc":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80","description":"Serving as National Councilor to advocate for a strong Swiss economy."},{"description":"Defending Swiss sovereignty and self-determination.","title":"Independence","imageSrc":"https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=600&q=80"},{"description":"Rooted in Swiss values and dedicated to future generations.","title":"Family & Tradition","imageSrc":"https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80"}]}
+        ctaButton={{"text":"Learn more","href":"https://www.martullo-blocher.ch/"}}
+      />
             </div>
   );
 }

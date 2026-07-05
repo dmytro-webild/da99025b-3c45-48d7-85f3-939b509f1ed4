@@ -8,21 +8,14 @@ export default function MilestonesSection(): React.JSX.Element {
   return (
     <div id="milestones" data-section="milestones">
               <FeaturesCarouselMarquee
-                textAnimation="fade"
-                tag="Life in Frames"
-                title="Moments I'll Never Forget"
-                description="Big milestones, quiet sunsets, and everything worth remembering in between."
-                primaryButton={{ text: "See the full gallery", href: "#gallery" }}
-                secondaryButton={{ text: "Follow my journey", href: "#follow" }}
-                items={[
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/carousel/graduation.webp", label: "Graduation Day" },
-                  { imageSrc: "https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=600&q=80", label: "Swiss Alps" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/carousel/solo-trip.webp", label: "First Solo Trip" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/carousel/golden-hour.webp", label: "Golden Hour" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/carousel/turning-25.webp", label: "Turning 25" },
-                  { imageSrc: "https://storage.googleapis.com/webild/default/templates/anya/carousel/island-life.webp", label: "Island Life" },
-                ]}
-              />
+        textAnimation="fade"
+        tag="Milestones"
+        title="A Journey of Commitment"
+        description="Key moments in my entrepreneurial and political career."
+        primaryButton={{"text":"Read more","href":"https://www.martullo-blocher.ch/"}}
+        secondaryButton={{"text":"Follow updates","href":"#"}}
+        items={[{"imageSrc":"https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&q=80","label":"EMS-CHEMIE Leadership"},{"imageSrc":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80","label":"National Council Election"},{"imageSrc":"https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&q=80","label":"Advocating for Economy"},{"imageSrc":"https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=600&q=80","label":"Swiss Independence"},{"imageSrc":"https://images.unsplash.com/photo-1554774853-719586f82d77?w=600&q=80","label":"Innovation Focus"},{"imageSrc":"https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&q=80","label":"Global Expansion"}]}
+      />
             </div>
   );
 }
