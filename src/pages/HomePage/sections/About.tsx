@@ -9,10 +9,10 @@ export default function AboutSection(): React.JSX.Element {
     <div id="about" data-section="about">
               <FeaturesBentoGridCta
         textAnimation="fade"
-        tag="About Me"
-        title="My Core Values"
-        description="As the CEO of EMS-CHEMIE and a National Councilor, I stand for a free market economy, personal responsibility, and a sovereign Switzerland."
-        features={[{"title":"Entrepreneurship","imageSrc":"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80","description":"Leading EMS-CHEMIE with a focus on innovation, securing jobs, and driving global success from our Swiss base."},{"description":"Serving in the National Council to advocate for a strong economy, lower taxes, and less bureaucracy.","imageSrc":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80","title":"Political Commitment"},{"imageSrc":"https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80","description":"Defending Swiss sovereignty, direct democracy, and self-determination against excessive foreign influence.","title":"Independence"},{"title":"Family & Tradition","imageSrc":"https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=600&q=80","description":"Rooted in Swiss values, I am dedicated to preserving our heritage for future generations."}]}
+        tag="Über mich"
+        title="Magdalena Martullo-Blocher"
+        description="Unternehmerin und Nationalrätin für eine starke Schweiz."
+        features={[{"title":"Persönliches","imageSrc":"https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=600&q=80","description":"Wohnort: Meilen und Lenzerheide. Jahrgang: 1969. Zivilstand: verheiratet, 3 Kinder. Hobbies: Familie, Wandern, Berge."},{"description":"lic.oec. HSG, Unternehmerin EMS-CHEMIE AG. Vize-Präsidentin und Delegierte des Verwaltungsrates der EMS-CHEMIE HOLDING AG.","imageSrc":"https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80","title":"Beruf"},{"imageSrc":"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80","description":"Nationalrätin SVP Graubünden, Verantwortliche für die Wirtschaftspolitik. Vize-Präsidentin SVP Schweiz.","title":"Politik"},{"title":"Partei","imageSrc":"https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=600&q=80","description":"Mitglied des Parteileitungsausschusses SVP Schweiz. Mitglied Parteileitung SVP Schweiz."}]}
       />
             </div>
   );
