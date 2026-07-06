@@ -29,7 +29,7 @@ const ShowcaseInline = () => {
       className="relative w-full h-svh overflow-hidden my-20"
     >
       <div className="absolute inset-0">
-        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783298594478-tsnq7pa3.webp?_wi=2"} className="w-full h-full object-cover" />
+        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783299911436-zp6tjenc.jpg"} className="w-full h-full object-cover" />
       </div>
 
       <div className="relative z-10 w-full pt-32 md:pt-48 text-center">
