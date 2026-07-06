@@ -29,7 +29,7 @@ const ShowcaseInline = () => {
       className="relative w-full h-svh overflow-hidden my-20"
     >
       <div className="absolute inset-0">
-        <ImageOrVideo imageSrc={"https://images.unsplash.com/photo-1527668752968-14dc70a27c95?w=1200&q=80"} className="w-full h-full object-cover" />
+        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783298594478-tsnq7pa3.webp"} className="w-full h-full object-cover" />
       </div>
 
       <div className="relative z-10 w-full pt-32 md:pt-48 text-center">
@@ -43,16 +43,6 @@ const ShowcaseInline = () => {
         className="absolute left-[5%] md:left-[12%] top-[28%] md:top-[2%] w-[50vw] md:w-[26vw] max-w-[420px] drop-shadow-2xl pointer-events-none"
       >
         <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783294133902-jfwtklo3.jpg"} className="w-full h-auto" />
-      </motion.div>
-
-      <motion.div
-        style={{ y: rightY, rotate: rightRotate }}
-        className="absolute right-[5%] md:right-[12%] top-[60%] md:top-[12%] w-[45vw] md:w-[20vw] max-w-[340px] drop-shadow-2xl pointer-events-none"
-      >
-        <div className="relative">
-          <ImageOrVideo imageSrc={"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&q=80"} className="w-full h-auto rounded-2xl" />
-          <div className="absolute top-3 right-3 text-4xl drop-shadow-md">🇨🇭</div>
-        </div>
       </motion.div>
     </section>
   );
