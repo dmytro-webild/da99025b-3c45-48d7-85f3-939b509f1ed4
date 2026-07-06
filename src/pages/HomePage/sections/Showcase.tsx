@@ -49,7 +49,10 @@ const ShowcaseInline = () => {
         style={{ y: rightY, rotate: rightRotate }}
         className="absolute right-[5%] md:right-[12%] top-[60%] md:top-[12%] w-[45vw] md:w-[20vw] max-w-[340px] drop-shadow-2xl pointer-events-none"
       >
-        <ImageOrVideo imageSrc={"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&q=80"} className="w-full h-auto" />
+        <div className="relative">
+          <ImageOrVideo imageSrc={"https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&q=80"} className="w-full h-auto rounded-2xl" />
+          <div className="absolute top-3 right-3 text-4xl drop-shadow-md">🇨🇭</div>
+        </div>
       </motion.div>
     </section>
   );
