@@ -29,7 +29,7 @@ const ShowcaseInline = () => {
       className="relative w-full h-svh overflow-hidden my-20"
     >
       <div className="absolute inset-0">
-        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783298594478-tsnq7pa3.webp"} className="w-full h-full object-cover" />
+        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783298594478-tsnq7pa3.webp?_wi=2"} className="w-full h-full object-cover" />
       </div>
 
       <div className="relative z-10 w-full pt-32 md:pt-48 text-center">
@@ -42,7 +42,7 @@ const ShowcaseInline = () => {
         style={{ y: leftY, rotate: leftRotate }}
         className="absolute left-[5%] md:left-[12%] top-[28%] md:top-[2%] w-[50vw] md:w-[26vw] max-w-[420px] drop-shadow-2xl pointer-events-none"
       >
-        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783300275348-a1l21k8u.jpg"} className="w-full h-auto" />
+        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783294133902-jfwtklo3.jpg"} className="w-full h-auto" />
       </motion.div>
     </section>
   );
