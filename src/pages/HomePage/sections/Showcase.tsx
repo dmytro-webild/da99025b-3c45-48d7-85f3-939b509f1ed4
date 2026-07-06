@@ -42,7 +42,7 @@ const ShowcaseInline = () => {
         style={{ y: leftY, rotate: leftRotate }}
         className="absolute left-[5%] md:left-[12%] top-[28%] md:top-[2%] w-[50vw] md:w-[26vw] max-w-[420px] drop-shadow-2xl pointer-events-none"
       >
-        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783294133902-jfwtklo3.jpg"} className="w-full h-auto" />
+        <ImageOrVideo imageSrc={"https://storage.googleapis.com/webild/users/user_3AniccObAoDJgCkSlT6RJk7a8NL/uploaded-1783300275348-a1l21k8u.jpg"} className="w-full h-auto" />
       </motion.div>
     </section>
   );
