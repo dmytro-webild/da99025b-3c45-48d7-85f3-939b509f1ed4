@@ -17,7 +17,7 @@ export default function Layout() {
                   { title: "Explore", items: [{ label: "About", href: "#about" }, { label: "Milestones", href: "#milestones" }] },
                   { title: "Connect", items: [{ label: "Contact", href: "#contact" }] },
                 ]}
-                leftText="© 2025 Magdalena Martullo-Blocher. All rights reserved."
+                leftText="© 2026 Magdalena Martullo-Blocher. All rights reserved."
                 rightText="For a Strong Switzerland"
               />
     </StyleProvider>
